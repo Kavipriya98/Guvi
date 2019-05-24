@@ -1,12 +1,9 @@
-x=input("")
-y=input("")
-z=input("")
-if(x>y):
-  if(x>z):
-    print(x)
-  else:
-    print(z)
-elif(y>z):
+x=int(input(""))
+y=int(input(""))
+z=int(input(""))
+if(x>y and x>z):
+  print(x)
+elif(y>x and y>z):
   print(y)
-else:
+elif(z>x and z>y):
   print(z)

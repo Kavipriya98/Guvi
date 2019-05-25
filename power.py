@@ -1,4 +1,8 @@
 N=int(input(""))
 k=int(input(""))
-z=N**k
-print(z)
+power=1
+i=1
+while(i<=k):
+  power=power*N
+  i=i+1
+print(power)

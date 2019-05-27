@@ -1,5 +1,4 @@
-x=int(input(""))
-y=int(input(""))
+x,y=map(int,input().split())
 temp=x
 x=y
 y=temp

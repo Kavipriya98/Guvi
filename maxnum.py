@@ -1,3 +1,4 @@
-N=input().split()
-array=[int(i) for i in N]
-print(max(array))
+num=input().split()
+x=[int(i) for i in num]
+y=max(x)
+print(y)

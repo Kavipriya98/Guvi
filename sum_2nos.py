@@ -1,3 +1,5 @@
+def sum(x,y):
+  z=x+y
+  print(z)
 x,y=map(int,input().split())
-z=x+y
-print(z)
+sum(x,y)

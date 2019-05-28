@@ -1,0 +1,9 @@
+min=int(input(""))
+hr=0
+if(min<=59):
+  print(hr,min)
+else:
+  while(min>59):
+    min=min-60
+    hr=hr+1
+    print(hr,min)

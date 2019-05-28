@@ -1,7 +1,7 @@
 N=int(input(""))
-x=[]
-for i in range(0,N):
+sum=0
+for n in range(N):
   num=int(input(""))
-  x.append(num)
-avg=sum(x)/num
+  sum=sum+num
+avg=sum/num
 print(avg)

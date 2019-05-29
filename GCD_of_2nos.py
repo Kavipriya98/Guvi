@@ -1,0 +1,12 @@
+N,M=map(int,input().split())
+if(N>M):
+  dividend=N
+  divisor=M
+else:
+  dividend=M
+  divisor=N
+while(divisor!=0):
+  remainder=dividend%divisor
+  dividend=divisor
+  divisor=remainder
+print(dividend)

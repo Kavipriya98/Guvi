@@ -1,2 +1,4 @@
+def fnc(S):
+  print(S)
 S=input("")
-print(S)
+fnc(S)
